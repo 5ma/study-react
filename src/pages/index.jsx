@@ -6,8 +6,6 @@ import { Header } from 'src/components/Header';
 
 export default function Home(props) {
   const { count, isShow, handleClick, handleDisplay, text, array, handleChange, handleAdd } = props;
-  console.log(props);
-  console.log(handleClick);
 
   return (
     <div className={classes.container}>
